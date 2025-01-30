@@ -1,5 +1,5 @@
 name: 'Linux: Bug report'
-description: Create an issue that is happening on MacOS
+description: Create an issue that is happening on Linux
 title: '[Linux Bug]: '
 labels: bug, Linux
 assignees:
@@ -29,42 +29,48 @@ body:
       required: true
   - type: dropdown
     id: LinuxVersion
-    description: What main distro of Linux are you using?
     attributes:
-    options:
-      - Arch
-      - Debian
-      - Fedora
-      - Ubuntu
-      - Lutris
-      - Majoro
-      - Pop OS
-    default: 0
+      label: What main distro of Linux are you using?
+      options:
+        - Arch
+        - Debian
+        - Fedora
+        - Ubuntu
+        - Lutris
+        - Manjaro
+        - Pop OS
+      default: 0
     validations:
       required: true
   - type: textarea
     id: linuxdistroversion
     attributes:
       label: Linux Distro Version
-      description: Please provide the version of the Linux Distro you are using. Or the full distro name and version if not one from above
+      description: Please provide the version of the Linux Distro you are using. Or the full distro name and version if not one from above.
       placeholder: Tell us which Linux Distro you are using! eg. "Ubuntu 20.04"
       value: ""
     validations:
       required: true
   - type: dropdown
     id: GameVersion
-    description: What version of the game are you using?
     attributes:
-    options:
-      - Live
-      - Dev
-      - Beta
-    default: 0
+      label: What version of the game are you using?
+      options:
+        - Live
+        - Dev
+        - Beta
+      default: 0
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
       label: Client Log or Client Crash Log
-      description: Please copy and paste a log output. The file can be located in either "Client\client.log" or "Client\ClientCrashLogs\ClientCrashLog_%DATE%_%TIME%.txt" This will be automatically formatted into code, so no need for backticks.
+      description: Please copy and paste a log output. The file can be located in either "Client\client.log" or "Client\ClientCrashLogs\ClientCrashLog_%DATE%_%TIME%.txt". This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: markdown
+    attributes:
+      value: |
+        ## 📸 Screenshots (Optional)
+        If applicable, please upload screenshots by dragging and dropping them **into the GitHub comment box** after submitting this issue.  
+        You can also upload them to an image hosting site (e.g., Imgur) and paste the link in a comment.
