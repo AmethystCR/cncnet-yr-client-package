@@ -1,14 +1,13 @@
 name: 'MacOS: Bug report'
-about: Create an issue that is happening on MacOS
-title: '[MacOS Bug]: '
+description: Create an issue that is happening on MacOS
+title: '[MacOS  Bug]: '
 labels: bug, MacOS
 assignees:
   - ''
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      value: "Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord."
   - type: textarea
     id: what-happened
     attributes:
@@ -28,25 +27,25 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: MacOSVersion
-    description: What version of MacOS are you using?
+    id: WindowsVersion
     attributes:
-    options:
+      label: What version of Windows are you using?
+      options:
       - 15 Sequoia
       - 14 Sonoma
       - 13 Ventura
-    default: 0
+      default: 0
     validations:
       required: true
   - type: dropdown
     id: GameVersion
-    description: What version of the game are you using?
     attributes:
-    options:
-      - Live
-      - Dev
-      - Beta
-    default: 0
+      label: What version of the game are you using?
+      options:
+        - Live
+        - Dev
+        - Beta
+      default: 0
     validations:
       required: true
   - type: textarea
