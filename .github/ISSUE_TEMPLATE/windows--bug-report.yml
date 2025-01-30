@@ -28,25 +28,25 @@ body:
       required: true
   - type: dropdown
     id: WindowsVersion
-    description: What version of Windows are you using?
     attributes:
-    options:
-      - Windows 11
-      - Windows 10
-      - Windows 8
-      - Windows 7
-    default: 0
+      label: What version of Windows are you using?
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 8
+        - Windows 7
+      default: 0
     validations:
       required: true
   - type: dropdown
     id: GameVersion
-    description: What version of the game are you using?
     attributes:
-    options:
-      - Live
-      - Dev
-      - Beta
-    default: 0
+      label: What version of the game are you using?
+      options:
+        - Live
+        - Dev
+        - Beta
+      default: 0
     validations:
       required: true
   - type: textarea
