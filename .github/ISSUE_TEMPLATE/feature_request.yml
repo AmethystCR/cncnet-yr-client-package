@@ -44,6 +44,6 @@ body:
       label: Additional context or screenshots
       description: "Add any other context, links, or images that help explain your feature request."
       placeholder: "Provide any supporting information, including screenshots if applicable."
-      value: ""
+      value: " " 
     validations:
       required: false
