@@ -1,5 +1,5 @@
 name: 'Windows: Bug report'
-about: Create an issue that is happening on Windows
+description: Create an issue that is happening on Windows
 title: '[Windows Bug]: '
 labels: bug, Windows
 assignees:
