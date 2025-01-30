@@ -1,5 +1,5 @@
 name: 'Linux: Bug report'
-about: Create an issue that is happening on MacOS
+description: Create an issue that is happening on MacOS
 title: '[Linux Bug]: '
 labels: bug, Linux
 assignees:
