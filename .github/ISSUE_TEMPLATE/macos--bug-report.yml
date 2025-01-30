@@ -54,3 +54,9 @@ body:
       label: Client Log or Client Crash Log
       description: Please copy and paste a log output. The file can be located in either "Client\client.log" or "Client\ClientCrashLogs\ClientCrashLog_%DATE%_%TIME%.txt" This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: markdown
+    attributes:
+      value: |
+        ## 📸 Screenshots (Optional)
+        If applicable, please upload screenshots by dragging and dropping them **into the GitHub comment box** after submitting this issue.  
+        You can also upload them to an image hosting site (e.g., Imgur) and paste the link in a comment.
