@@ -48,7 +48,7 @@ body:
       label: Linux Distro Version
       description: Please provide the version of the Linux Distro you are using. Or the full distro name and version if not one from above.
       placeholder: Tell us which Linux Distro you are using! eg. "Ubuntu 20.04"
-      value: ""
+      value: "Enter your distro version here"
     validations:
       required: true
   - type: dropdown
